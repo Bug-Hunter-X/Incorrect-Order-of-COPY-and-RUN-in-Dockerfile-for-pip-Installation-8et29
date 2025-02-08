@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles involving the order of COPY and RUN instructions when installing Python packages using pip. The initial Dockerfile has the COPY command for requirements.txt after the RUN command for pip installation leading to a failure. The fixed Dockerfile demonstrates the correct order.
